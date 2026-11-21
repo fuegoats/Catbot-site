@@ -1,1 +1,128 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatBot 🍭</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #100e15;
+      color: white;
+    }
+    header {
+      padding: 20px;
+      background: #17131e;
+      text-align: center;
+    }
+    .logo { color: #ff922e; font-size: 28px; font-weight: bold; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+    }
+    .hero {
+      text-align: center;
+      padding: 85px 15px;
+      background: radial-gradient(circle, #492078, #100e15 75%);
+    }
+    .cat { font-size: 75px; }
+    h1 { font-size: 42px; }
+    h1 span, h3 { color: #ff922e; }
+    p { color: #c9bfd7; line-height: 1.6; }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #ff922e, #9b4bea);
+      padding: 14px 22px;
+      border-radius: 30px;
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+    section { padding: 55px 7%; text-align: center; }
+    h2 { font-size: 30px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 18px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #201a2b;
+      border: 1px solid #7041a0;
+      border-radius: 16px;
+      padding: 22px;
+    }
+    .emoji { font-size: 38px; }
+    .commands {
+      background: #201a2b;
+      border-radius: 16px;
+      padding: 25px;
+    }
+    footer {
+      background: #17131e;
+      padding: 25px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🍭 CatBot</div>
+  <nav>
+    <a href="#home">Accueil</a>
+    <a href="#features">Fonctions</a>
+    <a href="#commands">Commandes</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero" id="home">
+    <div class="cat">🐈‍⬛🍭</div>
+    <h1>Bienvenue sur <span>CatBot</span></h1>
+    <p>Ton compagnon multifonction pour Discord !</p>
+    <p>Modération, économie, fun et bien plus encore.</p>
+    <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1573680873646329887&amp;scope=bot%20applications.commands&amp;permissions=0">
+      Ajouter CatBot
+    </a>
+    <a class="btn" href="#features">Découvrir</a>
+  </div>
+
+  <section id="features">
+    <h2>✨ Les fonctionnalités</h2>
+    <p>Tout ce qu'il faut pour ton serveur Discord !</p>
+    <div class="cards">
+      <div class="card"><div class="emoji">🛡️</div><h3>Modération</h3><p>Gère ton serveur.</p></div>
+      <div class="card"><div class="emoji">🎉</div><h3>Commandes fun</h3><p>Amuse ta communauté.</p></div>
+      <div class="card"><div class="emoji">💰</div><h3>Économie</h3><p>Une économie virtuelle.</p></div>
+      <div class="card"><div class="emoji">⭐</div><h3>Niveaux &amp; XP</h3><p>Fais progresser les membres.</p></div>
+      <div class="card"><div class="emoji">👋</div><h3>Bienvenue</h3><p>Accueille les nouveaux.</p></div>
+      <div class="card"><div class="emoji">🎫</div><h3>Tickets</h3><p>Un support organisé.</p></div>
+      <div class="card"><div class="emoji">🎮</div><h3>Mini-jeux</h3><p>Des jeux pour s'amuser.</p></div>
+      <div class="card"><div class="emoji">🤖</div><h3>Automodération</h3><p>Protège ton serveur.</p></div>
+      <div class="card"><div class="emoji">📊</div><h3>Statistiques</h3><p>Découvre les statistiques.</p></div>
+    </div>
+  </section>
+
+  <section id="commands">
+    <h2>📖 Les commandes</h2>
+    <div class="commands">
+      <p>La liste des commandes de CatBot arrive bientôt !</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <h3>🍭 CatBot</h3>
+  <p>Un petit bot, de grandes possibilités !</p>
+  <p>© 2026 CatBot</p>
+</footer>
+
+</body>
+</html>
+
