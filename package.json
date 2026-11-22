@@ -1,0 +1,12 @@
+{
+  "name": "catbot",
+  "version": "2.0.0",
+  "description": "CatBot multifonction Discord",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3"
+  }
+}
